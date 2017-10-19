@@ -1,0 +1,92 @@
+#include <stdio.h>
+/*Camila*/
+int main () {
+
+	unsigned int a, b;
+	a= 4;
+	b= 6;
+	if (a == 0) {
+	  if (b == 0) {
+	    printf ("a es igual que b");
+	  } else {
+	      printf ("a es menor que b");
+	  }
+	}
+	if (a!=0) {
+	  if (b == 0) {
+	    printf ("a es mayor que b");
+	  } else {
+	      while ((a!=0) && (b!=0)) {
+	        a= a-1;
+	        b= b-1;
+	          if (a == 0) {
+	            if (b == 0) {
+	              printf ("a es igual que b");
+		    } else {
+	                printf ("a es menor que b");
+                    }
+                  } else {
+	              if (b == 0) {
+                        printf ("a es mayor que b");
+	              } else {
+	                  continue; 
+	              }
+                  }     
+              }  
+          }
+	}
+}
+           
+
+--------------------------------------------
+Faltó un punto y coma después de main ()
+Faltó una llave al final 
+
+#include <stdio.h>
+/*Camila*/
+int main (); {
+
+	unsigned int a, b;
+	a= 4;
+	b= 6;
+	if (a == 0) {
+	  if (b == 0) {
+	    printf ("a es igual que b");
+	  } else {
+	      printf ("a es menor que b");
+	  }
+	}
+	if (a!=0) {
+	  if (b == 0) {
+	    printf ("a es mayor que b");
+	  } else {
+	      while ((a!=0) && (b!=0)) {
+	        a= a-1;
+	        b= b-1;
+	          if (a == 0) {
+	            if (b == 0) {
+	              printf ("a es igual que b");
+		    } else {
+	                printf ("a es menor que b");
+                    }
+                  } else {
+	              if (b == 0) {
+                        printf ("a es mayor que b");
+	              } else {
+	                  continue; 
+	              }
+                  }     
+              }  
+          }
+	}
+}
+    
+
+
+
+}	  
+
+
+
+
+
